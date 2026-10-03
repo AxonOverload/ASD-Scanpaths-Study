@@ -58,4 +58,4 @@ This is consistent with the attention-allocation literature's emphasis on spatia
 
 ## References
 - - Duan, H. et al. "Saliency4ASD: Challenge, dataset and tools for visual attention modeling for autism spectrum disorder." Signal Processing: Image Communication, 2019 (ICME 2019 Grand Challenge).
-- - Visual Attention Graph (2025), arXiv:2503.08531 — confirms the same participant-inference convention used here.
+- - Visual Attention Graph (2025), arXiv:2503.08531, confirms the same participant-inference convention used here.
