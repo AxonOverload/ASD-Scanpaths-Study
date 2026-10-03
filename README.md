@@ -40,7 +40,7 @@ and filtered out sparse/inconsistent indices (appearing in fewer than 50 of 300 
 
 ### Evaluation
 Stratified, group-aware 7-fold cross-validation (StratifiedGroupKFold), grouped by inferred participant ID,
-so no participant's data appears in both training and validation within a fold.
+so no participant's data appears in both training testing within a fold.
 This avoids the leakage risk of a naive random split, given 14 scanpaths per participant are highly correlated.
 
 
