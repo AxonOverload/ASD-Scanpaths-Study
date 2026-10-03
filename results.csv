@@ -1,0 +1,8 @@
+| Experiment          | Accuracy | Precision | Recall | F1     |
+|---------------------|----------|-----------|--------|--------|
+| LSTM                | 62.46%   | 61.79%    | 60.78% | 61.07% |
+| Shuffled            | 62.15%   | 61.77%    | 59.84% | 60.49% |
+| No duration         | 61.64%   | 61.60%    | 57.97% | 59.53% |
+| GRU                 | 62.02%   | 62.07%    | 58.95% | 60.24% |
+| Logistic regression | 58.01%   | N/A       | N/A    | N/A    |
+| Majority baseline   | 45.74%   | N/A       | N/A    | N/A    |
