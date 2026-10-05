@@ -51,11 +51,11 @@ The ablation study produced a specific, non-obvious finding:
 shuffling the temporal order of fixations does not meaningfully reduce accuracy, and removing fixation duration or switching LSTM→GRU also has negligible effect.
 However, the LSTM does meaningfully outperform a simple order-blind mean-pooled baseline (≈62% vs. ≈58%, a gap larger than the folds' standard deviations).
 
-Taken together, this suggests the LSTM learns a non-trivial, non-linear aggregation of which locations were fixated and what visual content was present there,
-but this aggregation does not depend on the sequence in which fixations occurred. The fact that it still outperforms the mean-pooled baseline (62% vs. 58%) proves that the interaction between the features (e.g., the specific combination of location (A) + visual content (B) + location (C)) matters immensely. 
-This is consistent with the attention-allocation literature's emphasis on spatial/priority-based differences (e.g., reduced attention to social regions) over fine-grained temporal dynamics, in a free-viewing paradigm with no task structure.
+This suggests the LSTM learns a non-trivial, non-linear aggregation of which locations were fixated and what visual content was present there,
+but this aggregation does not depend on the sequence in which fixations occurred. The fact that it still outperforms the mean-pooled baseline (62% vs. 58%) proves that the interaction between the features (e.g. the specific combination of location (A) + visual content (B) + location (C)) matters immensely. 
+This is consistent with the attention allocation literature's emphasis on spatial/priority-based differences (e.g. reduced attention to social regions) in a free-viewing paradigm with no task structure.
 
 
 ## References
-- - Duan, H. et al. "Saliency4ASD: Challenge, dataset and tools for visual attention modeling for autism spectrum disorder." Signal Processing: Image Communication, 2019 (ICME 2019 Grand Challenge).
-- - Visual Attention Graph (2025), arXiv:2503.08531, confirms the same participant-inference convention used here.
+- Duan, H. et al. "Saliency4ASD: Challenge, dataset and tools for visual attention modeling for autism spectrum disorder." Signal Processing: Image Communication, 2019 (ICME 2019 Grand Challenge).
+- Visual Attention Graph (2025), arXiv:2503.08531, confirms the same participant-inference convention used here.
